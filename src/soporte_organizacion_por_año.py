@@ -9,7 +9,7 @@ def organizar_archivos_por_año(ruta_archivos):
     ruta_archivos (str): Ruta de la carpeta que contiene los archivos CSV.
     """
     # Listar todos los archivos en la carpeta
-    archivos = [f for f in os.listdir(ruta_archivos) if f.endswith('.json')]
+    archivos = [f for f in os.listdir(ruta_archivos) if f.endswith('.csv')]
 
     # Procesar cada archivo
     for archivo in archivos:
